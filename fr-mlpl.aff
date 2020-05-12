@@ -1,0 +1,1814 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS “TOUTES VARIANTES” v6.3
+# par Olivier R. -- licence MPL 2.0
+# Généré le 20-08-2018 à 11:51
+# Pour améliorer le dictionnaire, allez sur http://www.dicollecte.org/
+
+
+
+SET UTF-8
+
+WORDCHARS -’'1234567890.
+
+
+TRY esntiarulodcpmévqfgbhàxèjyêMILzACçôîPâùJFSûBVœRDGNETHXkïOwKWYUëQÉZŒüãÎáöóÈíæÅñäśńÿ
+
+
+MAP 25
+MAP aàâäAÀÂÄ
+MAP eéèêëEÉÈÊË
+MAP iîïyIÎÏY
+MAP oôöOÔÖ
+MAP uùûüUÙÛÜ
+MAP cçCÇ
+MAP bB
+MAP dD
+MAP fF
+MAP gG
+MAP hH
+MAP jJ
+MAP kK
+MAP lL
+MAP mM
+MAP nN
+MAP pP
+MAP qQ
+MAP rR
+MAP sS
+MAP tT
+MAP vV
+MAP wW
+MAP xX
+MAP zZ
+
+REP 82
+REP ^Ca$ Ça
+REP ^l l'
+REP ^d d'
+REP ^n n'
+REP ^s s'
+REP ^j j'
+REP ^m m'
+REP ^t t'
+REP ^c c'
+REP f ph
+REP ph f
+REP c qu
+REP qu c
+REP k qu
+REP qu k
+REP x ct
+REP ct x
+REP bb b
+REP b bb
+REP cc c
+REP c cc
+REP ff f
+REP f ff
+REP ll l
+REP l ll
+REP mm m
+REP m mm
+REP nn n
+REP n nn
+REP pp p
+REP p pp
+REP rr r
+REP r rr
+REP ss s
+REP s ss
+REP ss c
+REP c ss
+REP ss ç
+REP ç ss
+REP tt t
+REP t tt
+REP œ oe
+REP oe œ
+REP æ ae
+REP ae æ
+REP ai é
+REP é ai
+REP ai è
+REP è ai
+REP ai ê
+REP ê ai
+REP ei é
+REP é ei
+REP ei è
+REP è ei
+REP ei ê
+REP ê ei
+REP o au
+REP au o
+REP o eau
+REP eau o
+REP ett èt
+REP èt ett
+REP ell èl
+REP èl ell
+REP t th
+REP th t
+REP ième$ e
+REP ème$ e
+REP è$ e
+REP mn$ min
+REP ogue$ ogiste
+REP ogiste$ ogue
+REP disez$ dites
+REP fesez$ faites
+REP faisez$ faites
+REP puit puits
+REP sanctionnable punissable
+REP questionnable discutable
+REP antitartre détartrant
+REP email courriel
+REP construirent construisirent
+
+
+
+
+KEY azertyuiop|qsdfghjklmù|wxcvbn|aéz|yèu|iço|oàp|aqz|zse|edr|rft|tgy|yhu|uji|iko|olpm|qws|sxd|dcf|fvg|gbh|hnj
+
+ICONV 42
+ICONV ’ '
+ICONV ʼ '
+ICONV ﬃ ffi
+ICONV ﬄ ffl
+ICONV ﬀ ff
+ICONV ﬅ ft
+ICONV ﬁ fi
+ICONV ﬂ fl
+ICONV ﬆ st
+ICONV ſ s
+ICONV à à
+ICONV â â
+ICONV ä ä
+ICONV é é
+ICONV è è
+ICONV ê ê
+ICONV ë ë
+ICONV î î
+ICONV ï ï
+ICONV ô ô
+ICONV ö ö
+ICONV ù ù
+ICONV û û
+ICONV ü ü
+ICONV ÿ ÿ
+ICONV ç ç
+ICONV À À
+ICONV Â Â
+ICONV Ä Ä
+ICONV É É
+ICONV È È
+ICONV Ê Ê
+ICONV Ë Ë
+ICONV Î Î
+ICONV Ï Ï
+ICONV Ô Ô
+ICONV Ö Ö
+ICONV Ù Ù
+ICONV Û Û
+ICONV Ü Ü
+ICONV Ÿ Ÿ
+ICONV Ç Ç
+
+OCONV 1
+OCONV ' ’
+
+
+
+FLAG long
+
+FULLSTRIP
+
+NEEDAFFIX ()
+
+FORBIDDENWORD {}
+
+CIRCUMFIX **
+
+KEEPCASE ||
+
+NOSUGGEST --
+
+
+
+BREAK 7
+BREAK -
+BREAK .
+BREAK ·
+BREAK ^'
+BREAK ^‘
+BREAK '$
+BREAK ’$
+
+
+
+
+
+
+PFX L' Y 34
+PFX L' 0 l' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX L' a l'A a
+PFX L' à l'À à
+PFX L' â l'Â â
+PFX L' e l'E e
+PFX L' é l'É é
+PFX L' è l'È è
+PFX L' ê l'Ê ê
+PFX L' i l'I i
+PFX L' î l'Î î
+PFX L' o l'O o
+PFX L' ô l'Ô ô
+PFX L' u l'U u
+PFX L' y l'Y y
+PFX L' h l'H h
+PFX L' œ l'Œ œ
+PFX L' æ l'Æ æ
+PFX L' 0 L' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX L' a L'A a
+PFX L' à L'À à
+PFX L' â L'Â â
+PFX L' e L'E e
+PFX L' é L'É é
+PFX L' è L'È è
+PFX L' ê L'Ê ê
+PFX L' i L'I i
+PFX L' î L'Î î
+PFX L' o L'O o
+PFX L' ô L'Ô ô
+PFX L' u L'U u
+PFX L' y L'Y y
+PFX L' h L'H h
+PFX L' œ L'Œ œ
+PFX L' æ L'Æ æ
+
+PFX D' Y 34
+PFX D' 0 d' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX D' a d'A a
+PFX D' à d'À à
+PFX D' â d'Â â
+PFX D' e d'E e
+PFX D' é d'É é
+PFX D' è d'È è
+PFX D' ê d'Ê ê
+PFX D' i d'I i
+PFX D' î d'Î î
+PFX D' o d'O o
+PFX D' ô d'Ô ô
+PFX D' u d'U u
+PFX D' y d'Y y
+PFX D' h d'H h
+PFX D' œ d'Œ œ
+PFX D' æ d'Æ æ
+PFX D' 0 D' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX D' a D'A a
+PFX D' à D'À à
+PFX D' â D'Â â
+PFX D' e D'E e
+PFX D' é D'É é
+PFX D' è D'È è
+PFX D' ê D'Ê ê
+PFX D' i D'I i
+PFX D' î D'Î î
+PFX D' o D'O o
+PFX D' ô D'Ô ô
+PFX D' u D'U u
+PFX D' y D'Y y
+PFX D' h D'H h
+PFX D' œ D'Œ œ
+PFX D' æ D'Æ æ
+
+PFX Q' Y 34
+PFX Q' 0 qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q' a qu'A a
+PFX Q' à qu'À à
+PFX Q' â qu'Â â
+PFX Q' e qu'E e
+PFX Q' é qu'É é
+PFX Q' è qu'È è
+PFX Q' ê qu'Ê ê
+PFX Q' i qu'I i
+PFX Q' î qu'Î î
+PFX Q' o qu'O o
+PFX Q' ô qu'Ô ô
+PFX Q' u qu'U u
+PFX Q' y qu'Y y
+PFX Q' h qu'H h
+PFX Q' œ qu'Œ œ
+PFX Q' æ qu'Æ æ
+PFX Q' 0 Qu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q' a Qu'A a
+PFX Q' à Qu'À à
+PFX Q' â Qu'Â â
+PFX Q' e Qu'E e
+PFX Q' é Qu'É é
+PFX Q' è Qu'È è
+PFX Q' ê Qu'Ê ê
+PFX Q' i Qu'I i
+PFX Q' î Qu'Î î
+PFX Q' o Qu'O o
+PFX Q' ô Qu'Ô ô
+PFX Q' u Qu'U u
+PFX Q' y Qu'Y y
+PFX Q' h Qu'H h
+PFX Q' œ Qu'Œ œ
+PFX Q' æ Qu'Æ æ
+
+PFX Q* Y 6
+PFX Q* 0 quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q* 0 puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q* 0 lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q* 0 Quoiqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q* 0 Puisqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+PFX Q* 0 Lorsqu' [aàâeèéêiîoôuyhœæAÀÂEÈÉÊIÎOÔUYHŒÆ]
+
+PFX Qj Y 1
+PFX Qj 0 jusqu' [aàâeèéêiîoôuyhœæ]
+
+PFX Si Y 1
+PFX Si 0 s' .
+
+SFX S. Y 1
+SFX S. 0 s [^sxz]
+
+SFX S= Y 1
+SFX S= 0 s [^sxz]
+
+SFX X. Y 3
+SFX X. 0 x [aeoœ]u
+SFX X. l ux al
+SFX X. il ux ail
+
+SFX A. Y 9
+SFX A. 0 s [^sxz]
+SFX A. an en an
+SFX A. f ves f
+SFX A. h hes h
+SFX A. s ses s
+SFX A. x xes x
+SFX A. y ies y
+SFX A. zz zzes zz
+SFX A. z zzes [^z]z
+
+SFX I. Y 7
+SFX I. 0 s [^sxz]
+SFX I. a e a
+SFX I. e i e
+SFX I. en ina en
+SFX I. o i o
+SFX I. um a um
+SFX I. us i us
+
+SFX F. Y 78
+SFX F. 0 s [eë]
+SFX F. e 0 [éiï]e
+SFX F. e s [éiï]e
+SFX F. rice eur [dt]rice
+SFX F. rice eurs [dt]rice
+SFX F. de d de
+SFX F. de ds de
+SFX F. fe f fe
+SFX F. fe fs fe
+SFX F. anche anc anche
+SFX F. anche ancs anche
+SFX F. èche ec èche
+SFX F. èche ecs èche
+SFX F. aiche ais aiche
+SFX F. aîche ais aîche
+SFX F. khe kh khe
+SFX F. khe khs khe
+SFX F. he h [ut]he
+SFX F. he hs [ut]he
+SFX F. ke k [^è]ke
+SFX F. ke ks [^è]ke
+SFX F. èke ek èke
+SFX F. èke eks èke
+SFX F. le l [aiouûh]le
+SFX F. le ls [aiouûh]le
+SFX F. lle l [eiu]lle
+SFX F. lle ls [eiu]lle
+SFX F. olle ou olle
+SFX F. olle ous olle
+SFX F. olle ol olle
+SFX F. olle ols olle
+SFX F. ne n [aiouï]ne
+SFX F. ne ns [aiouï]ne
+SFX F. nne n [aeo]nne
+SFX F. nne ns [aeo]nne
+SFX F. ène en ène
+SFX F. ène ens ène
+SFX F. igne in igne
+SFX F. igne ins igne
+SFX F. re r [aiouûy]re
+SFX F. re rs [aiouûy]re
+SFX F. ère er ère
+SFX F. ère ers ère
+SFX F. se s [^us]se
+SFX F. esse e [^eo].esse
+SFX F. esse es [^eo].esse
+SFX F. rofesse rofès rofesse
+SFX F. eresse eur eresse
+SFX F. eresse eurs eresse
+SFX F. oresse eur oresse
+SFX F. oresse eurs oresse
+SFX F. sse s [^e]sse
+SFX F. use us [^eo]use
+SFX F. euse eur euse
+SFX F. euse eurs euse
+SFX F. te t [^èt]te
+SFX F. te ts [^èt]te
+SFX F. tte t tte
+SFX F. tte ts tte
+SFX F. ète et ète
+SFX F. ète ets ète
+SFX F. ue u [^gq]ue
+SFX F. ue us [^gq]ue
+SFX F. gue g gue
+SFX F. gue gs gue
+SFX F. cque c cque
+SFX F. cque cs cque
+SFX F. que c [^c]que
+SFX F. que cs [^c]que
+SFX F. ève ef ève
+SFX F. ève efs ève
+SFX F. ve f [iïu]ve
+SFX F. ve fs [iïu]ve
+SFX F. uë u uë
+SFX F. uë us uë
+SFX F. üe u üe
+SFX F. üe us üe
+SFX F. ze z ze
+
+SFX W. N 15
+SFX W. e es e
+SFX W. ce x ce
+SFX W. use ux [eo]use
+SFX W. ausse aux ausse
+SFX W. ousse oux ousse
+SFX W. ale al ale
+SFX W. ale aux ale
+SFX W. elle eau elle
+SFX W. elle eaux elle
+SFX W. elle el [bv]elle
+SFX W. elle els [bv]elle
+SFX W. ieille ieux ieille
+SFX W. ieille ieil ieille
+SFX W. ofolle oufou ofolle
+SFX W. ofolle oufous ofolle
+
+SFX S* Y 2
+SFX S* 0 0/D'L'Q' [^sxz]
+SFX S* 0 s/D'Q' [^sxz]
+
+SFX X* Y 4
+SFX X* 0 0/D'L'Q' [ul]
+SFX X* 0 x/D'Q' [aeoœ]u
+SFX X* l ux/D'Q' al
+SFX X* il ux/D'Q' ail
+
+SFX A* Y 20
+SFX A* an an/D'L'Q' an
+SFX A* an ans/D'Q' an
+SFX A* an en/D'Q' an
+SFX A* f f/D'L'Q' f
+SFX A* f fs/D'Q' f
+SFX A* f ves/D'Q' f
+SFX A* h h/D'L'Q' h
+SFX A* h hs/D'Q' h
+SFX A* h hes/D'Q' h
+SFX A* s s/D'L'Q' s
+SFX A* s ses/D'Q' s
+SFX A* x x/D'L'Q' x
+SFX A* x xes/D'Q' x
+SFX A* y y/D'L'Q' y
+SFX A* y ys/D'Q' y
+SFX A* y ies/D'Q' y
+SFX A* zz zz/D'L'Q' zz
+SFX A* zz zzes/D'Q' zz
+SFX A* z z/D'L'Q' [^z]z
+SFX A* z zzes/D'Q' [^z]z
+
+SFX I* Y 17
+SFX I* a a/D'L'Q' a
+SFX I* a as/D'Q' a
+SFX I* a e/D'Q' a
+SFX I* e e/D'L'Q' e
+SFX I* e es/D'Q' e
+SFX I* e i/D'Q' e
+SFX I* en en/D'L'Q' en
+SFX I* en ens/D'Q' en
+SFX I* en ina/D'Q' en
+SFX I* o o/D'L'Q' o
+SFX I* o os/D'Q' o
+SFX I* o i/D'Q' o
+SFX I* um um/D'L'Q' um
+SFX I* um ums/D'Q' um
+SFX I* um a/D'Q' um
+SFX I* us us/D'L'Q' us
+SFX I* us i/D'Q' us
+
+SFX F* Y 59
+SFX F* 0 0/D'L'Q' [eë]
+SFX F* 0 s/D'Q' [eë]
+SFX F* e 0/D'L'Q' [éiï]e
+SFX F* e s/D'Q' [éiï]e
+SFX F* rice eur/D'L'Q' [dt]rice
+SFX F* rice eurs/D'Q' [dt]rice
+SFX F* de d/D'L'Q' de
+SFX F* de ds/D'Q' de
+SFX F* he h/D'L'Q' [ut]he
+SFX F* he hs/D'Q' [ut]he
+SFX F* èke ek/D'L'Q' èke
+SFX F* èke eks/D'Q' èke
+SFX F* le l/D'L'Q' [aiouû]le
+SFX F* le ls/D'Q' [aiouû]le
+SFX F* lle l/D'L'Q' [eiu]lle
+SFX F* lle ls/D'Q' [eiu]lle
+SFX F* ne n/D'L'Q' [aiouï]ne
+SFX F* ne ns/D'Q' [aiouï]ne
+SFX F* nne n/D'L'Q' [aeo]nne
+SFX F* nne ns/D'Q' [aeo]nne
+SFX F* gne n/D'L'Q' igne
+SFX F* gne ns/D'Q' igne
+SFX F* re r/D'L'Q' [aiouûy]re
+SFX F* re rs/D'Q' [aiouûy]re
+SFX F* ère er/D'L'Q' ère
+SFX F* ère ers/D'Q' ère
+SFX F* se s/D'L'Q' [^us]se
+SFX F* esse e/D'L'Q' [^eo].esse
+SFX F* esse es/D'Q' [^eo].esse
+SFX F* eresse eur/D'L'Q' eresse
+SFX F* eresse eurs/D'Q' eresse
+SFX F* oresse eur/D'L'Q' oresse
+SFX F* oresse eurs/D'Q' oresse
+SFX F* sse s/D'L'Q' [^e]sse
+SFX F* use us/D'L'Q' [^eo]use
+SFX F* euse eur/D'L'Q' euse
+SFX F* euse eurs/D'Q' euse
+SFX F* te t/D'L'Q' [^èt]te
+SFX F* te ts/D'Q' [^èt]te
+SFX F* tte t/D'L'Q' tte
+SFX F* tte ts/D'Q' tte
+SFX F* ète et/D'L'Q' ète
+SFX F* ète ets/D'Q' ète
+SFX F* ue u/D'L'Q' [^gq]ue
+SFX F* ue us/D'Q' [^gq]ue
+SFX F* gue g/D'L'Q' gue
+SFX F* gue gs/D'Q' gue
+SFX F* cque c/D'L'Q' cque
+SFX F* cque cs/D'Q' cque
+SFX F* que c/D'L'Q' [^c]que
+SFX F* que cs/D'Q' [^c]que
+SFX F* ève ef/D'L'Q' ève
+SFX F* ève efs/D'Q' ève
+SFX F* ve f/D'L'Q' [iïu]ve
+SFX F* ve fs/D'Q' [iïu]ve
+SFX F* uë u/D'L'Q' uë
+SFX F* uë us/D'Q' uë
+SFX F* üe u/D'L'Q' üe
+SFX F* üe us/D'Q' üe
+
+SFX W* Y 10
+SFX W* 0 0/D'L'Q' e
+SFX W* e es/D'Q' e
+SFX W* ce x/D'L'Q' ce
+SFX W* use ux/D'L'Q' [eo]use
+SFX W* ousse oux/D'L'Q' ousse
+SFX W* ausse aux/D'L'Q' ausse
+SFX W* ale al/D'L'Q' ale
+SFX W* ale aux/D'Q' ale
+SFX W* elle eau/D'L'Q' elle
+SFX W* elle eaux/D'Q' elle
+
+PFX Um Y 30
+PFX Um 0 0/S. .
+PFX Um 0 l' [aàâeèéêiîoôuyœæ]
+PFX Um 0 d'/S. [aàâeèéêiîoôuyœæ]
+PFX Um 0 yotta/S. .
+PFX Um 0 zetta/S. .
+PFX Um 0 exa/S. .
+PFX Um 0 l'exa .
+PFX Um 0 d'exa/S. .
+PFX Um 0 peta/S. .
+PFX Um 0 péta/S. .
+PFX Um 0 téra/S. .
+PFX Um 0 giga/S. .
+PFX Um 0 méga/S. .
+PFX Um 0 kilo/S. .
+PFX Um 0 hecto/S. .
+PFX Um 0 l'hecto .
+PFX Um 0 d'hecto/S. .
+PFX Um 0 déca/S. .
+PFX Um 0 déci/S. .
+PFX Um 0 centi/S. .
+PFX Um 0 milli/S. .
+PFX Um 0 micro/S. .
+PFX Um 0 nano/S. .
+PFX Um 0 pico/S. .
+PFX Um 0 femto/S. .
+PFX Um 0 atto/S. .
+PFX Um 0 l'atto .
+PFX Um 0 d'atto/S. .
+PFX Um 0 zepto/S. .
+PFX Um 0 yocto/S. .
+
+PFX Ui Y 29
+PFX Ui 0 l' [aàâeèéêiîoôuyœæ]
+PFX Ui 0 d' [aàâeèéêiîoôuyœæ]
+PFX Ui 0 yotta .
+PFX Ui 0 zetta .
+PFX Ui 0 exa .
+PFX Ui 0 l'exa .
+PFX Ui 0 d'exa .
+PFX Ui 0 peta .
+PFX Ui 0 péta .
+PFX Ui 0 téra .
+PFX Ui 0 giga .
+PFX Ui 0 méga .
+PFX Ui 0 kilo .
+PFX Ui 0 hecto .
+PFX Ui 0 l'hecto .
+PFX Ui 0 d'hecto .
+PFX Ui 0 déca .
+PFX Ui 0 déci .
+PFX Ui 0 centi .
+PFX Ui 0 milli .
+PFX Ui 0 micro .
+PFX Ui 0 nano .
+PFX Ui 0 pico .
+PFX Ui 0 femto .
+PFX Ui 0 atto .
+PFX Ui 0 l'atto .
+PFX Ui 0 d'atto .
+PFX Ui 0 zepto .
+PFX Ui 0 yocto .
+
+PFX U. Y 20
+PFX U. 0 Y .
+PFX U. 0 Z .
+PFX U. 0 E .
+PFX U. 0 P .
+PFX U. 0 T .
+PFX U. 0 G .
+PFX U. 0 M .
+PFX U. 0 k .
+PFX U. 0 h .
+PFX U. 0 da .
+PFX U. 0 d .
+PFX U. 0 c .
+PFX U. 0 m .
+PFX U. 0 µ .
+PFX U. 0 n .
+PFX U. 0 p .
+PFX U. 0 f .
+PFX U. 0 a .
+PFX U. 0 z .
+PFX U. 0 y .
+
+PFX n' Y 1
+PFX n' 0 n' [aàâeèéêiîoôuyhœæ]
+
+PFX q' Y 1
+PFX q' 0 qu' [aàâeèéêiîoôuyhœæ]
+
+PFX d' Y 1
+PFX d' 0 d' [aàâeèéêiîoôuyhœæ]
+
+PFX j' Y 1
+PFX j' 0 j' [aàâeèéêiîoôuyhœæ]
+
+PFX c' Y 2
+PFX c' 0 c' [eé]
+PFX c' 0 ç' a
+
+PFX l' Y 1
+PFX l' 0 l' [aàâeèéêiîoôuyhœæ]
+
+PFX m' Y 1
+PFX m' 0 m' [aàâeèéêiîoôuyhœæ]
+
+PFX t' Y 1
+PFX t' 0 t' [aàâeèéêiîoôuyhœæ]
+
+PFX s' Y 1
+PFX s' 0 s' [aàâeèéêiîoôuyhœæ]
+
+SFX zA Y 6
+SFX zA voir voir/n'q'd'l'm't' avoir
+SFX zA voir yant/n'q'l'm't' avoir
+SFX zA avoir eu avoir
+SFX zA avoir eus avoir
+SFX zA avoir eue avoir
+SFX zA avoir eues avoir
+
+SFX zE Y 3
+SFX zE tre tre/n'q'd'l'm't's' être
+SFX zE être étant/n'q'l'm't's' être
+SFX zE être été être
+
+SFX a0 N 3
+SFX a0 er ant [^cg]er
+SFX a0 cer çant cer
+SFX a0 ger geant ger
+
+SFX a1 Y 4
+SFX a1 er er/n'q'd' er
+SFX a1 er ant/n'q' [^cg]er
+SFX a1 cer çant/n'q' cer
+SFX a1 ger geant/n'q' ger
+
+SFX a2 Y 4
+SFX a2 er er/n'q'd'l'm't's' er
+SFX a2 er ant/n'q'l'm't's' [^cg]er
+SFX a2 cer çant/n'q'l'm't's' cer
+SFX a2 ger geant/n'q'l'm't's' ger
+
+SFX a3 Y 4
+SFX a3 er er/m't's' er
+SFX a3 er ant/m't's' [^cg]er
+SFX a3 cer çant/m't's' cer
+SFX a3 ger geant/m't's' ger
+
+SFX a4 Y 4
+SFX a4 er er/n'q'd'l'm't's' er
+SFX a4 er ant/n'q'l'm't's' [^cg]er
+SFX a4 cer çant/n'q'l'm't's' cer
+SFX a4 ger geant/n'q'l'm't's' ger
+
+SFX a5 Y 4
+SFX a5 er er/n'q'd'm't's' er
+SFX a5 er ant/n'q'm't's' [^cg]er
+SFX a5 cer çant/n'q'm't's' cer
+SFX a5 ger geant/n'q'm't's' ger
+
+SFX a6 Y 4
+SFX a6 er er/s' er
+SFX a6 er ant/s' [^cg]er
+SFX a6 cer çant/s' cer
+SFX a6 ger geant/s' ger
+
+SFX a8 N 4
+SFX a8 er er/n'd' er
+SFX a8 er ant [^cg]er
+SFX a8 cer çant cer
+SFX a8 ger geant ger
+
+SFX a9 N 0
+
+SFX b0 N 2
+SFX b0 er ant [^c]er
+SFX b0 cer çant cer
+
+SFX b1 Y 3
+SFX b1 er er/n'q'd' er
+SFX b1 er ant/n'q' [^c]er
+SFX b1 cer çant/n'q' cer
+
+SFX b2 Y 3
+SFX b2 er er/n'q'd'l'm't's' er
+SFX b2 er ant/n'q'l'm't's' [^c]er
+SFX b2 cer çant/n'q'l'm't's' cer
+
+SFX b3 Y 3
+SFX b3 er er/m't's' er
+SFX b3 er ant/m't's' [^c]er
+SFX b3 cer çant/m't's' cer
+
+SFX b4 Y 3
+SFX b4 er er/n'q'd'l'm't's' er
+SFX b4 er ant/n'q'l'm't's' [^c]er
+SFX b4 cer çant/n'q'l'm't's' cer
+
+SFX b5 Y 3
+SFX b5 er er/n'q'd'm't's' er
+SFX b5 er ant/n'q'm't's' [^c]er
+SFX b5 cer çant/n'q'm't's' cer
+
+SFX c0 N 3
+SFX c0 er ant [^cg]er
+SFX c0 écer éçant écer
+SFX c0 éger égeant éger
+
+SFX c1 Y 4
+SFX c1 r r/n'q'd' er
+SFX c1 er ant/n'q' [^cg]er
+SFX c1 écer éçant/n'q' écer
+SFX c1 éger égeant/n'q' éger
+
+SFX c2 Y 4
+SFX c2 er er/n'q'd'l'm't's' er
+SFX c2 er ant/n'q'l'm't's' [^cg]er
+SFX c2 écer éçant/n'q'l'm't's' écer
+SFX c2 éger égeant/n'q'l'm't's' éger
+
+SFX c3 Y 4
+SFX c3 er er/m't's' er
+SFX c3 er ant/m't's' [^cg]er
+SFX c3 écer éçant/m't's' écer
+SFX c3 éger égeant/m't's' éger
+
+SFX c4 Y 4
+SFX c4 er er/n'q'd'l'm't's' er
+SFX c4 er ant/n'q'l'm't's' [^cg]er
+SFX c4 écer éçant/n'q'l'm't's' écer
+SFX c4 éger égeant/n'q'l'm't's' éger
+
+SFX c5 Y 4
+SFX c5 er er/n'q'd'm't's' er
+SFX c5 er ant/n'q'm't's' [^cg]er
+SFX c5 écer éçant/m'q'm't's' écer
+SFX c5 éger égeant/m'q'l't's' éger
+
+SFX d0 N 1
+SFX d0 er ant er
+
+SFX d1 Y 2
+SFX d1 er er/n'q'd' er
+SFX d1 er ant/n'q' er
+
+SFX d2 Y 2
+SFX d2 er er/n'q'd'l'm't's' er
+SFX d2 er ant/n'q'l'm't's' er
+
+SFX d3 Y 2
+SFX d3 er er/m't's' er
+SFX d3 er ant/m't's' er
+
+SFX d4 Y 2
+SFX d4 er er/n'q'd'l'm't's' er
+SFX d4 er ant/n'q'l'm't's' er
+
+SFX d5 Y 2
+SFX d5 er er/m'q'd'm't's' er
+SFX d5 er ant/m'q'd'm't's' er
+
+SFX aA Y 6
+SFX aA ller ller/n'q'd'm't' aller
+SFX aA ller llant/n'q'm't' aller
+SFX aA ller llé/q' aller
+SFX aA ller llés/q' aller
+SFX aA ller llée/q' aller
+SFX aA ller llées/q' aller
+
+SFX aD Y 6
+SFX aD voyer voyer/n'q'd'l'm't's' envoyer
+SFX aD voyer voyant/n'q'l'm't's' envoyer
+SFX aD voyer voyé/q' envoyer
+SFX aD voyer voyés/q' envoyer
+SFX aD voyer voyée/q' envoyer
+SFX aD voyer voyées/q' envoyer
+
+SFX aE Y 6
+SFX aE direr direr/n'q'd'l'm't's' direr
+SFX aE direr dirant/n'q'l'm't's' direr
+SFX aE direr diré/q' direr
+SFX aE direr dirés/q' direr
+SFX aE direr dirée/q' direr
+SFX aE direr dirées/q' direr
+
+SFX aF N 5
+SFX aF cerner cernant er
+SFX aF cerner cerné er
+SFX aF cerner cernés er
+SFX aF cerner cernée er
+SFX aF cerner cernées er
+
+SFX aG Y 7
+SFX aG er er/n'q'd'm't' er
+SFX aG er ant/n'q'm't' er
+SFX aG mber mbé mber
+SFX aG lter lté lter
+SFX aG lter ltés lter
+SFX aG lter ltée lter
+SFX aG lter ltées lter
+
+SFX aH N 2
+SFX aH er ant gger
+SFX aH er é gger
+
+SFX aY N 5
+SFX aY neler nelant neler
+SFX aY neler nelé neler
+SFX aY neler nelés neler
+SFX aY neler nelée neler
+SFX aY neler nelées neler
+
+SFX aZ N 5
+SFX aZ teler telant teler
+SFX aZ teler telé teler
+SFX aZ teler telés teler
+SFX aZ teler telée teler
+SFX aZ teler telées teler
+
+SFX dA Y 6
+SFX dA peler peler/n'q'd'l'm't's' peler
+SFX dA peler pelant/n'q'l'm't's' peler
+SFX dA peler pelé/q' peler
+SFX dA peler pelés/q' peler
+SFX dA peler pelée/q' peler
+SFX dA peler pelées/q' peler
+
+SFX f0 Y 1
+SFX f0 ir issant ir
+
+SFX f1 Y 2
+SFX f1 ir ir/n'q'd' ir
+SFX f1 ir issant/n'q' ir
+
+SFX f2 Y 2
+SFX f2 ir ir/n'q'd'l'm't's' ir
+SFX f2 ir issant/n'q'l'm't's' ir
+
+SFX f3 Y 2
+SFX f3 ir ir/m't's' ir
+SFX f3 ir issant/m't's' ir
+
+SFX f4 Y 2
+SFX f4 ir ir/n'q'd'l'm't's' ir
+SFX f4 ir issant/n'q'l'm't's' ir
+
+SFX f5 Y 2
+SFX f5 ir ir/n'q'd'm't's' ir
+SFX f5 ir issant/n'q'm't's' ir
+
+SFX fA N 5
+SFX fA aïr aïssant aïr
+SFX fA aïr aï aïr
+SFX fA aïr aïs aïr
+SFX fA aïr aïe aïr
+SFX fA aïr aïes aïr
+
+SFX fB Y 6
+SFX fB haïr haïr/s' aïr
+SFX fB haïr haïssant/s' aïr
+SFX fB haïr haï aïr
+SFX fB haïr haïs aïr
+SFX fB haïr haïe aïr
+SFX fB haïr haïes aïr
+
+SFX fC Y 6
+SFX fC partir partir/n'q'd'l'm't's' impartir
+SFX fC partir partissant/n'q'l'm't's' impartir
+SFX fC partir parti/q' impartir
+SFX fC partir partis/q' impartir
+SFX fC partir partie/q' impartir
+SFX fC partir parties/q' impartir
+
+SFX fD N 1
+SFX fD ortir ortissant sortir
+
+SFX fY N 6
+SFX fY uïr uïr/s' uïr
+SFX fY uïr uïssant/m't's' uïr
+SFX fY uïr uï uïr
+SFX fY uïr uïs uïr
+SFX fY uïr uïe uïr
+SFX fY uïr uïes uïr
+
+SFX fZ N 1
+SFX fZ gir gissant agir
+
+SFX p+ Y 8
+SFX p+ er é/L'D'Q' er
+SFX p+ er és/D'Q' er
+SFX p+ er ée/L'D'Q' er
+SFX p+ er ées/D'Q' er
+SFX p+ ir i/L'D'Q' ir
+SFX p+ ir is/D'Q' ir
+SFX p+ ir ie/L'D'Q' ir
+SFX p+ ir ies/D'Q' ir
+
+SFX p. Y 2
+SFX p. er é/q' er
+SFX p. ir i/q' ir
+
+SFX i0 Y 2
+SFX i0 enir enir/n'q'd' enir
+SFX i0 enir enant/n'q' enir
+
+SFX i1 Y 2
+SFX i1 enir enir/n'q'd'l'm't's' enir
+SFX i1 enir enant/n'q'l'm't's' enir
+
+SFX i2 Y 2
+SFX i2 enir enir/m't's' enir
+SFX i2 enir enant/m't's' enir
+
+SFX i5 N 1
+SFX i5 tir tant tir
+
+SFX iA Y 6
+SFX iA dvenir dvenir/n'q'd'm't' venir
+SFX iA dvenir dvenant/n'q'm't' venir
+SFX iA dvenir dvenu/Q' venir
+SFX iA dvenir dvenus/Q' venir
+SFX iA dvenir dvenue/Q' venir
+SFX iA dvenir dvenues/Q' venir
+
+SFX iB Y 3
+SFX iB partenir partenir/n'q'd'm't's' tenir
+SFX iB partenir partenant/n'q'm't's' tenir
+SFX iB partenir partenu/q' tenir
+
+SFX iC Y 6
+SFX iC rir rir/n'q'd'l'm't's' [vf]rir
+SFX iC rir rant/n'q'l'm't's' [vf]rir
+SFX iC rir ert/L'D'Q' [vf]rir
+SFX iC rir erts/D'Q' [vf]rir
+SFX iC rir erte/L'D'Q' [vf]rir
+SFX iC rir ertes/D'Q' [vf]rir
+
+SFX iD Y 6
+SFX iD courir courir/n'q'd' courir
+SFX iD courir courant/n'q' courir
+SFX iD courir couru courir
+SFX iD courir courus courir
+SFX iD courir courue courir
+SFX iD courir courues courir
+
+SFX iE Y 6
+SFX iE ourir ourir/n'q'd'l'm't's' courir
+SFX iE ourir ourant/n'q'm't's' courir
+SFX iE ourir ouru/L'D'Q' courir
+SFX iE ourir ourus/D'Q' courir
+SFX iE ourir ourue/L'D'Q' courir
+SFX iE ourir ourues/D'Q' courir
+
+SFX iF N 5
+SFX iF ervir ervant servir
+SFX iF ervir ervi servir
+SFX iF ervir ervis servir
+SFX iF ervir ervie servir
+SFX iF ervir ervies servir
+
+SFX iG N 5
+SFX iG êtir êtant vêtir
+SFX iG êtir êtu vêtir
+SFX iG êtir êtus vêtir
+SFX iG êtir êtue vêtir
+SFX iG êtir êtues vêtir
+
+SFX iI N 2
+SFX iI ormir ormant dormir
+SFX iI ormir ormi dormir
+
+SFX iJ Y 6
+SFX iJ dormir dormir/n'q'd'l'm't's' dormir
+SFX iJ dormir dormant/n'q'l'm't's' dormir
+SFX iJ dormir dormi/L'D'Q' dormir
+SFX iJ dormir dormis/D'Q' dormir
+SFX iJ dormir dormie/L'D'Q' dormir
+SFX iJ dormir dormies/D'Q' dormir
+
+SFX iK Y 5
+SFX iK quérir quérir/n'q'd'l'm't's' quérir
+SFX iK quérir quérant/n'q'l'm't's' quérir
+SFX iK quérir quis/L'D'Q' quérir
+SFX iK quérir quise/L'D'Q' quérir
+SFX iK quérir quises/D'Q' quérir
+
+SFX iM Y 5
+SFX iM quérir quérir/m't's' quérir
+SFX iM quérir quérant/m't's' quérir
+SFX iM quérir quis/L'D'Q' quérir
+SFX iM quérir quise/L'D'Q' quérir
+SFX iM quérir quises/D'Q' quérir
+
+SFX iN N 5
+SFX iN uir uyant fuir
+SFX iN uir ui fuir
+SFX iN uir uis fuir
+SFX iN uir uie fuir
+SFX iN uir uies fuir
+
+SFX iO Y 6
+SFX iO fuir fuir/m't's' enfuir
+SFX iO fuir fuyant/m't's' enfuir
+SFX iO fuir fui/L'D'Q' enfuir
+SFX iO fuir fuis/D'Q' enfuir
+SFX iO fuir fuie/L'D'Q' enfuir
+SFX iO fuir fuies/D'Q' enfuir
+
+SFX iP N 5
+SFX iP ourir ourant mourir
+SFX iP ourir ort mourir
+SFX iP ourir orts mourir
+SFX iP ourir orte mourir
+SFX iP ourir ortes mourir
+
+SFX iQ N 5
+SFX iQ ouillir ouillant bouillir
+SFX iQ ouillir ouilli bouillir
+SFX iQ ouillir ouillis bouillir
+SFX iQ ouillir ouillie bouillir
+SFX iQ ouillir ouillies bouillir
+
+SFX iR Y 6
+SFX iR ueillir ueillir/n'q'd'l'm't's' cueillir
+SFX iR ueillir ueillant/n'q'l'm't's' cueillir
+SFX iR ueillir ueilli/L'D'Q' cueillir
+SFX iR ueillir ueillis/D'Q' cueillir
+SFX iR ueillir ueillie/L'D'Q' cueillir
+SFX iR ueillir ueillies/D'Q' cueillir
+
+SFX iS N 2
+SFX iS aillir aillant aillir
+SFX iS aillir ailli aillir
+
+SFX iT Y 6
+SFX iT saillir saillir/n'q'd'l'm't's' aillir
+SFX iT saillir saillant/n'q'l'm't's' aillir
+SFX iT saillir sailli/L'D'Q' aillir
+SFX iT saillir saillis/D'Q' aillir
+SFX iT saillir saillie/L'D'Q' aillir
+SFX iT saillir saillies/D'Q' aillir
+
+SFX iU N 2
+SFX iU aillir aillant faillir
+SFX iU aillir ailli faillir
+
+SFX iV N 1
+SFX iV ésir isant gésir
+
+SFX iW Y 6
+SFX iW uïr uïr/n'q'd'l'm't's' ouïr
+SFX iW uïr yant/n'q'l'm't's' ouïr
+SFX iW uïr uï/L'D'Q' ouïr
+SFX iW uïr uïs/D'Q' ouïr
+SFX iW uïr uïe/L'D'Q' ouïr
+SFX iW uïr uïes/D'Q' ouïr
+
+SFX iX N 4
+SFX iX érir éru férir
+SFX iX érir érus férir
+SFX iX érir érue férir
+SFX iX érir érues férir
+
+SFX iY Y 5
+SFX iY ssir ssir/n'q'd' issir
+SFX iY ssir ssu/L'D'Q' issir
+SFX iY ssir ssus/D'Q' issir
+SFX iY ssir ssue/L'D'Q' issir
+SFX iY ssir ssues/D'Q' issir
+
+SFX pA N 2
+SFX pA ouvoir ouvant pouvoir
+SFX pA ouvoir u pouvoir
+
+SFX pB N 5
+SFX pB ouloir oulant vouloir
+SFX pB ouloir oulu vouloir
+SFX pB ouloir oulus vouloir
+SFX pB ouloir oulue vouloir
+SFX pB ouloir oulues vouloir
+
+SFX pC N 6
+SFX pC evoir evant devoir
+SFX pC evoir û redevoir
+SFX pC evoir u redevoir
+SFX pC evoir us devoir
+SFX pC evoir ue devoir
+SFX pC evoir ues devoir
+
+SFX pD N 1
+SFX pD evoir û devoir
+
+SFX pE N 5
+SFX pE avoir achant savoir
+SFX pE avoir u savoir
+SFX pE avoir us savoir
+SFX pE avoir ue savoir
+SFX pE avoir ues savoir
+
+SFX pF Y 6
+SFX pF oir oir/n'q'd'l'm't's' voir
+SFX pF oir oyant/n'q'l'm't's' voir
+SFX pF oir u/L'D'Q' voir
+SFX pF oir us/D'Q' voir
+SFX pF oir ue/L'D'Q' voir
+SFX pF oir ues/D'Q' voir
+
+SFX pG Y 0
+
+SFX pH Y 6
+SFX pH ouvoir ouvoir/n'q'd'l'm't's' mouvoir
+SFX pH ouvoir ouvant/n'q'l'm't's' mouvoir
+SFX pH ouvoir u/L'D'Q' .mouvoir
+SFX pH ouvoir us/D'Q' mouvoir
+SFX pH ouvoir ue/L'D'Q' mouvoir
+SFX pH ouvoir ues/D'Q' mouvoir
+
+SFX pI N 2
+SFX pI ouvoir û/q' mouvoir
+SFX pI ouvoir u/q' mouvoir
+
+SFX pJ N 5
+SFX pJ ourvoir ourvoyant pourvoir
+SFX pJ ourvoir ourvu pourvoir
+SFX pJ ourvoir ourvus pourvoir
+SFX pJ ourvoir ourvue pourvoir
+SFX pJ ourvoir ourvues pourvoir
+
+SFX pK Y 6
+SFX pK cevoir cevoir/n'q'd'l'm't's' cevoir
+SFX pK cevoir cevant/n'q'l'm't's' cevoir
+SFX pK cevoir çu/L'D'Q' cevoir
+SFX pK cevoir çus/D'Q' cevoir
+SFX pK cevoir çue/L'D'Q' cevoir
+SFX pK cevoir çues/D'Q' cevoir
+
+SFX pM N 2
+SFX pM aloir alant valoir
+SFX pM aloir alu valoir
+
+SFX pN Y 2
+SFX pN valoir valoir/n'q'd'm't's' valoir
+SFX pN valoir valant/n'q'm't's' valoir
+
+SFX pO N 5
+SFX pO valoir valant revaloir
+SFX pO valoir valu revaloir
+SFX pO valoir valus revaloir
+SFX pO valoir value revaloir
+SFX pO valoir values revaloir
+
+SFX pP N 1
+SFX pP paroir parant comparoir
+
+SFX pQ N 1
+SFX pQ haloir haut chaloir
+
+SFX pR Y 2
+SFX pR pparoir pparoir/n'q'd' apparoir
+SFX pR pparoir ppert/n'q' apparoir
+
+SFX pS Y 11
+SFX pS oir oir/n'q'd'l'm't's' oir
+SFX pS sseoir sseyant/n'q'l'm't's' seoir
+SFX pS ssoir sseyant/n'q'l'm't's' soir
+SFX pS sseoir ssoyant/n'q'l'm't's' seoir
+SFX pS ssoir ssoyant/n'q'l'm't's' soir
+SFX pS sseoir ssis/L'D'Q' seoir
+SFX pS sseoir ssise/L'D'Q' seoir
+SFX pS sseoir ssises/D'Q' seoir
+SFX pS ssoir ssis/L'D'Q' soir
+SFX pS ssoir ssise/L'D'Q' soir
+SFX pS ssoir ssises/D'Q' soir
+
+SFX pT N 8
+SFX pT urseoir ursoyant seoir
+SFX pT ursoir ursoyant soir
+SFX pT urseoir ursis seoir
+SFX pT urseoir ursise seoir
+SFX pT urseoir ursises seoir
+SFX pT ursoir ursis soir
+SFX pT ursoir ursise soir
+SFX pT ursoir ursises soir
+
+SFX pU N 4
+SFX pU eoir éant seoir
+SFX pU eoir is seoir
+SFX pU eoir ise seoir
+SFX pU eoir ises seoir
+
+SFX pV N 2
+SFX pV eoir éant seoir
+SFX pV eoir eyant seoir
+
+SFX pW N 2
+SFX pW sseoir sséant seoir
+SFX pW ssoir sséant soir
+
+SFX pX N 4
+SFX pX hoir hu choir
+SFX pX hoir hus choir
+SFX pX hoir hue choir
+SFX pX hoir hues choir
+
+SFX pY Y 6
+SFX pY choir choir/n'q'd' échoir
+SFX pY choir chéant/n'q' échoir
+SFX pY choir chu/L'D'Q' échoir
+SFX pY choir chus/D'Q' échoir
+SFX pY choir chue/L'D'Q' échoir
+SFX pY choir chues/D'Q' échoir
+
+SFX pZ N 2
+SFX pZ euvoir euvant pleuvoir
+SFX pZ euvoir u pleuvoir
+
+SFX qA N 1
+SFX qA alloir allu falloir
+
+SFX rA Y 5
+SFX rA lore lore/n'q'd'l'm't's' clore
+SFX rA lore losant/n'q'l'm't's' clore
+SFX rA lore los/L'D'Q' clore
+SFX rA lore lose/L'D'Q' clore
+SFX rA lore loses/D'Q' clore
+
+SFX rB Y 0
+
+SFX rC Y 5
+SFX rC clore clore/n'q'd' clore
+SFX rC clore closant/n'q' clore
+SFX rC clore clos/L'D'Q' clore
+SFX rC clore close/L'D'Q' clore
+SFX rC clore closes/D'Q' clore
+
+SFX rD N 3
+SFX rD clore clos clore
+SFX rD clore close clore
+SFX rD clore closes clore
+
+SFX tA Y 6
+SFX tA re re/n'q'd'l'm't's' [dp]re
+SFX tA re ant/n'q'l'm't's' [dp]re
+SFX tA re u/L'D'Q' [dp]re
+SFX tA re us/D'Q' [dp]re
+SFX tA re ue/L'D'Q' [dp]re
+SFX tA re ues/D'Q' [dp]re
+
+SFX tD Y 6
+SFX tD perdre perdre/m't's' perdre
+SFX tD perdre perdant/m't's' perdre
+SFX tD perdre perdu perdre
+SFX tD perdre perdus perdre
+SFX tD perdre perdue perdre
+SFX tD perdre perdues perdre
+
+SFX tE N 1
+SFX tE dre dant dre
+
+SFX tF Y 5
+SFX tF rendre rendre/n'q'd'l'm't's' prendre
+SFX tF rendre renant/n'q'l'm't's' prendre
+SFX tF rendre ris/L'D'Q' prendre
+SFX tF rendre rise/L'D'Q' prendre
+SFX tF rendre rises/D'Q' prendre
+
+SFX tG Y 5
+SFX tG prendre prendre/m't's' prendre
+SFX tG prendre prenant/m't's' prendre
+SFX tG prendre pris/L'D'Q' prendre
+SFX tG prendre prise/L'D'Q' prendre
+SFX tG prendre prises/D'Q' prendre
+
+SFX tM N 5
+SFX tM outre outant foutre
+SFX tM outre outu foutre
+SFX tM outre outus foutre
+SFX tM outre outue foutre
+SFX tM outre outues foutre
+
+SFX tU N 4
+SFX tU istre issu tistre
+SFX tU istre issus tistre
+SFX tU istre issue tistre
+SFX tU istre issues tistre
+
+SFX uA Y 6
+SFX uA tre tre/n'q'd'l'm't's' tre
+SFX uA tre tant/n'q'l'm't's' tre
+SFX uA tre tu/L'D'Q' tre
+SFX uA tre tus/D'Q' tre
+SFX uA tre tue/L'D'Q' tre
+SFX uA tre tues/D'Q' tre
+
+SFX uC Y 6
+SFX uC battre battre/m't's' battre
+SFX uC battre battant/m't's' battre
+SFX uC battre battu battre
+SFX uC battre battus battre
+SFX uC battre battue battre
+SFX uC battre battues battre
+
+SFX uD Y 6
+SFX uD battre battre/s' battre
+SFX uD battre battant/s' battre
+SFX uD battre battu battre
+SFX uD battre battus battre
+SFX uD battre battue battre
+SFX uD battre battues battre
+
+SFX vA Y 5
+SFX vA ettre ettre/n'q'd'l'm't's' mettre
+SFX vA ettre ettant/n'q'l'm't's' mettre
+SFX vA ettre is/L'D'Q' mettre
+SFX vA ettre ise/L'D'Q' mettre
+SFX vA ettre ises/D'Q' mettre
+
+SFX vC Y 5
+SFX vC mettre mettre/m't's' mettre
+SFX vC mettre mettant/m't's' mettre
+SFX vC mettre mis mettre
+SFX vC mettre mise mettre
+SFX vC mettre mises mettre
+
+SFX wA N 5
+SFX wA eindre eignant eindre
+SFX wA eindre eint eindre
+SFX wA eindre eints eindre
+SFX wA eindre einte eindre
+SFX wA eindre eintes eindre
+
+SFX wB Y 6
+SFX wB indre indre/n'q'd'l'm't's' indre
+SFX wB indre ignant/n'q'l'm't's' indre
+SFX wB indre int/L'D'Q' indre
+SFX wB indre ints/D'Q' indre
+SFX wB indre inte/L'D'Q' indre
+SFX wB indre intes/D'Q' indre
+
+SFX wD N 5
+SFX wD aire aisant faire
+SFX wD aire ait faire
+SFX wD aire aits faire
+SFX wD aire aite faire
+SFX wD aire aites faire
+
+SFX wF N 5
+SFX wF faire faisant faire
+SFX wF faire fait faire
+SFX wF faire faits faire
+SFX wF faire faite faire
+SFX wF faire faites faire
+
+SFX wG N 5
+SFX wG aire aisant faire
+SFX wG aire ait faire
+SFX wG aire aits faire
+SFX wG aire aite faire
+SFX wG aire aites faire
+
+SFX wL Y 6
+SFX wL raire raire/n'q'd'l'm't's' traire
+SFX wL raire rayant/n'q'l'm't's' traire
+SFX wL raire rait/L'D'Q' traire
+SFX wL raire raits/D'Q' traire
+SFX wL raire raite/L'D'Q' traire
+SFX wL raire raites/D'Q' traire
+
+SFX wM N 2
+SFX wM aire ayant raire
+SFX wM aire ait raire
+
+SFX wN N 1
+SFX wN aire aisant aire
+
+SFX wO N 5
+SFX wO aindre aignant aindre
+SFX wO aindre aint aindre
+SFX wO aindre aints aindre
+SFX wO aindre ainte aindre
+SFX wO aindre aintes aindre
+
+SFX wP N 5
+SFX wP aincre ainquant vaincre
+SFX wP aincre aincu vaincre
+SFX wP aincre aincus vaincre
+SFX wP aincre aincue vaincre
+SFX wP aincre aincues vaincre
+
+SFX wQ Y 3
+SFX wQ tre tre/n'q'd'm't's' tre
+SFX wQ aître aissant/n'q'd'm't's' aître
+SFX wQ aitre aissant/n'q'd'm't's' aitre
+
+SFX wR N 10
+SFX wR aître aissant naître
+SFX wR aitre aissant naitre
+SFX wR aître é naître
+SFX wR aître és naître
+SFX wR aître ée naître
+SFX wR aître ées naître
+SFX wR aitre é naitre
+SFX wR aitre és naitre
+SFX wR aitre ée naitre
+SFX wR aitre ées naitre
+
+SFX wS N 10
+SFX wS aître aissant paître
+SFX wS aitre aissant paitre
+SFX wS aître u repaître
+SFX wS aître us repaître
+SFX wS aître ue repaître
+SFX wS aître ues repaître
+SFX wS aitre u repaitre
+SFX wS aitre us repaitre
+SFX wS aitre ue repaitre
+SFX wS aitre ues repaitre
+
+SFX wT N 14
+SFX wT roître roissant croître
+SFX wT roitre roissant croitre
+SFX wT roître rû recroître
+SFX wT roître rûs recroître
+SFX wT roître rûe recroître
+SFX wT roître rûes recroître
+SFX wT roître ru décroître
+SFX wT roître rus décroître
+SFX wT roître rue décroître
+SFX wT roître rues décroître
+SFX wT roitre ru .croitre
+SFX wT roitre rus .croitre
+SFX wT roitre rue .croitre
+SFX wT roitre rues .croitre
+
+SFX wU N 8
+SFX wU roître rû croître
+SFX wU roître rûs croître
+SFX wU roître rûe croître
+SFX wU roître rûes croître
+SFX wU roitre rû croitre
+SFX wU roitre rûs croitre
+SFX wU roitre rûe croitre
+SFX wU roitre rûes croitre
+
+SFX wV Y 11
+SFX wV tre tre/n'q'd'l'm't's' tre
+SFX wV croître croissant/n'q'd'l'm't's' croître
+SFX wV croitre croissant/n'q'd'l'm't's' croitre
+SFX wV croître cru/L'D'Q' croître
+SFX wV croître crus/D'Q' croître
+SFX wV croître crue/L'D'Q' croître
+SFX wV croître crues/D'Q' croître
+SFX wV croitre cru/L'D'Q' croitre
+SFX wV croitre crus/D'Q' croitre
+SFX wV croitre crue/L'D'Q' croitre
+SFX wV croitre crues/D'Q' croitre
+
+SFX xA N 5
+SFX xA roire royant croire
+SFX xA roire ru croire
+SFX xA roire rus croire
+SFX xA roire rue croire
+SFX xA roire rues croire
+
+SFX xC N 5
+SFX xC oire uvant boire
+SFX xC oire u boire
+SFX xC oire us boire
+SFX xC oire ue boire
+SFX xC oire ues boire
+
+SFX xD Y 6
+SFX xD boire boire/m't's' boire
+SFX xD boire buvant/m't's' boire
+SFX xD boire bu boire
+SFX xD boire bus boire
+SFX xD boire bue boire
+SFX xD boire bues boire
+
+SFX xJ N 3
+SFX xJ clure clus clure
+SFX xJ clure cluse clure
+SFX xJ clure cluses clure
+
+SFX xK Y 5
+SFX xK clure clure/n'q'd'l'm't's' clure
+SFX xK clure cluant/n'q'l'm't's' clure
+SFX xK clure clus/L'D'Q' clure
+SFX xK clure cluse/L'D'Q' clure
+SFX xK clure cluses/D'Q' clure
+
+SFX xL Y 9
+SFX xL clure clure/n'q'd'l'm't's' clure
+SFX xL clure cluant/n'q'l'm't's' clure
+SFX xL clure clus/L'D'Q' inclure
+SFX xL clure cluse/L'D'Q' inclure
+SFX xL clure cluses/D'Q' inclure
+SFX xL clure clu/L'D'Q' [eo].clure
+SFX xL clure clus/D'Q' [eo].clure
+SFX xL clure clue/L'D'Q' [eo].clure
+SFX xL clure clues/D'Q' [eo].clure
+
+SFX xM N 1
+SFX xM ourdre ourdant sourdre
+
+SFX xN Y 6
+SFX xN soudre soudre/n'q'd'l'm't's' soudre
+SFX xN soudre solvant/n'q'l'm't's' soudre
+SFX xN soudre solu résoudre
+SFX xN soudre solus résoudre
+SFX xN soudre solue résoudre
+SFX xN soudre solues résoudre
+
+SFX xO N 5
+SFX xO oudre ousant coudre
+SFX xO oudre ousu coudre
+SFX xO oudre ousus coudre
+SFX xO oudre ousue coudre
+SFX xO oudre ousues coudre
+
+SFX xP Y 6
+SFX xP oudre oudre/n'q'd'l' moudre
+SFX xP oudre oulant/n'q'l' moudre
+SFX xP oudre oulu/L'D'Q' moudre
+SFX xP oudre oulus/D'Q' moudre
+SFX xP oudre oulue/L'D'Q' moudre
+SFX xP oudre oulues/D'Q' moudre
+
+SFX xQ N 5
+SFX xQ uivre uivant suivre
+SFX xQ uivre uivi suivre
+SFX xQ uivre uivis suivre
+SFX xQ uivre uivie suivre
+SFX xQ uivre uivies suivre
+
+SFX xR Y 3
+SFX xR suivre suivre/s' suivre
+SFX xR suivre suivant/s' suivre
+SFX xR suivre suivi suivre
+
+SFX xS N 1
+SFX xS ivre ivant vivre
+
+SFX y1 Y 6
+SFX y1 crire crire/n'q'd'l'm't's' crire
+SFX y1 crire crivant/n'q'l'm't's' crire
+SFX y1 crire crit/L'D'Q' crire
+SFX y1 crire crits/D'Q' crire
+SFX y1 crire crite/L'D'Q' crire
+SFX y1 crire crites/D'Q' crire
+
+SFX yA N 5
+SFX yA ire isant lire
+SFX yA ire u lire
+SFX yA ire us lire
+SFX yA ire ue lire
+SFX yA ire ues lire
+
+SFX yB Y 6
+SFX yB lire lire/n'q'd'l'm't's' lire
+SFX yB lire lisant/n'q'l'm't's' lire
+SFX yB lire lu/L'D'Q' lire
+SFX yB lire lus/D'Q' lire
+SFX yB lire lue/L'D'Q' lire
+SFX yB lire lues/D'Q' lire
+
+SFX yC N 5
+SFX yC ire isant dire
+SFX yC ire it dire
+SFX yC ire its dire
+SFX yC ire ite dire
+SFX yC ire ites dire
+
+SFX yD Y 6
+SFX yD dire dire/n'q'd'l'm't's' dire
+SFX yD dire disant/n'q'l'm't's' dire
+SFX yD dire dit/L'D'Q' dire
+SFX yD dire dits/D'Q' dire
+SFX yD dire dite/L'D'Q' dire
+SFX yD dire dites/D'Q' dire
+
+SFX yE N 2
+SFX yE édire édisant édire
+SFX yE édire édit édire
+
+SFX yF N 5
+SFX yF audire audissant udire
+SFX yF audire audit udire
+SFX yF audire audits udire
+SFX yF audire audite udire
+SFX yF audire audites udire
+
+SFX yG Y 3
+SFX yG dire dire/m't's' dire
+SFX yG dire disant/m't's' dire
+SFX yG dire dit dire
+
+SFX yJ N 3
+SFX yJ ruire ruissant uire
+SFX yJ ruire rui uire
+SFX yJ ruire ruit uire
+
+SFX yK N 4
+SFX yK bduire bduit uire
+SFX yK bduire bduits uire
+SFX yK bduire bduite uire
+SFX yK bduire bduites uire
+
+SFX yL Y 6
+SFX yL uire uire/n'q'd'l'm't's' uire
+SFX yL uire uisant/n'q'l'm't's' uire
+SFX yL uire uit/L'D'Q' uire
+SFX yL uire uits/D'Q' uire
+SFX yL uire uite/L'D'Q' uire
+SFX yL uire uites/D'Q' uire
+
+SFX yM Y 6
+SFX yM uire uire/n'q'd'l'm't's' uire
+SFX yM uire uisant/n'q'l'm't's' uire
+SFX yM uire uit/L'D'Q' uire
+SFX yM uire uits/D'Q' uire
+SFX yM uire uite/L'D'Q' uire
+SFX yM uire uites/D'Q' uire
+
+SFX yN Y 6
+SFX yN truire truire/s' uire
+SFX yN truire truisant/s' uire
+SFX yN truire truit uire
+SFX yN truire truits uire
+SFX yN truire truite uire
+SFX yN truire truites uire
+
+SFX yO Y 6
+SFX yO détruire détruire/m't's' détruire
+SFX yO détruire détruisant/m't's' détruire
+SFX yO détruire détruit détruire
+SFX yO détruire détruits détruire
+SFX yO détruire détruite détruire
+SFX yO détruire détruites détruire
+
+SFX yU N 2
+SFX yU uire uisant uire
+SFX yU uire ui uire
+
+SFX yV N 9
+SFX yV ire isant ire
+SFX yV ire it nfire
+SFX yV ire its nfire
+SFX yV ire ite nfire
+SFX yV ire ites nfire
+SFX yV ire is cire
+SFX yV ire ise cire
+SFX yV ire ises cire
+SFX yV ire i ffire
+
+SFX yW N 2
+SFX yW ire iant rire
+SFX yW ire i rire
+
+SFX yX Y 3
+SFX yX nuire nuire/s' nuire
+SFX yX nuire nuisant/s' nuire
+SFX yX nuire nui nuire
+
+SFX yY Y 4
+SFX yY ccire ccire/n'q'd'l'm't's' occire
+SFX yY ccire ccis/L'D'Q' occire
+SFX yY ccire ccise/L'D'Q' occire
+SFX yY ccire ccises/D'Q' occire
+
+SFX yZ N 5
+SFX yZ rire risant rire
+SFX yZ rire rit rire
+SFX yZ rire rits rire
+SFX yZ rire rite rire
+SFX yZ rire rites rire
+
+SFX q+ Y 36
+SFX q+ enir enu/L'D'Q' enir
+SFX q+ enir enus/D'Q' enir
+SFX q+ enir enue/L'D'Q' enir
+SFX q+ enir enues/D'Q' enir
+SFX q+ tir ti/L'D'Q' tir
+SFX q+ tir tis/D'Q' tir
+SFX q+ tir tie/L'D'Q' tir
+SFX q+ tir ties/D'Q' tir
+SFX q+ courir couru/L'D'Q' courir
+SFX q+ courir courus/D'Q' courir
+SFX q+ courir courue/L'D'Q' courir
+SFX q+ courir courues/D'Q' courir
+SFX q+ ivre écu vivre
+SFX q+ ivre écus vivre
+SFX q+ ivre écue vivre
+SFX q+ ivre écues vivre
+SFX q+ aire u aire
+SFX q+ aire us aire
+SFX q+ aire ue aire
+SFX q+ aire ues aire
+SFX q+ dre du dre
+SFX q+ dre dus dre
+SFX q+ dre due dre
+SFX q+ dre dues dre
+SFX q+ valoir valu .valoir
+SFX q+ valoir valus .valoir
+SFX q+ valoir value .valoir
+SFX q+ valoir values .valoir
+SFX q+ aître u/L'D'Q' aître
+SFX q+ aître us/D'Q' aître
+SFX q+ aître ue/L'D'Q' aître
+SFX q+ aître ues/D'Q' aître
+SFX q+ aitre u/L'D'Q' aitre
+SFX q+ aitre us/D'Q' aitre
+SFX q+ aitre ue/L'D'Q' aitre
+SFX q+ aitre ues/D'Q' aitre
+
+SFX q. Y 9
+SFX q. enir enu/q' enir
+SFX q. tir ti/q' tir
+SFX q. courir couru/q' courir
+SFX q. ivre écu vivre
+SFX q. aire u aire
+SFX q. dre du dre
+SFX q. valoir valu/q' .valoir
+SFX q. aître u/q' aître
+SFX q. aitre u/q' aitre
