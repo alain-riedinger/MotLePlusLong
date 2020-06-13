@@ -70,12 +70,13 @@ public class StrictDictionary {
         int len = 0;
         // Check the line char by char
         for (int i=0; i<line.length(); i++) {
-            if (len > MAX_LEN-1) {
-                // Word is too long: no need to process further nor to store
-                return null;
+            char c = line.charAt(i);
+            if (c == '/') {
+                // Process derived words: accepted, but not added and finishes parsing
+                // Must be checked outside of the "switch" to "break" the for loop
+                break;
             }
 
-            char c = line.charAt(i);
             switch (c) {
                 // Process accented characters: accepted and added unaccented
                 case 'a':
@@ -145,15 +146,15 @@ public class StrictDictionary {
                 // Process compound word separator: accepted, but not added
                 case '-':
                     break;
-                // Process derived words: accepted, but not added and finishes parsing
-                case '/':
-                    return parsedLine;
                 // Process any other character: refused and finishes parsing
                 default:
                     return null;
             }
         }
-
+        if (parsedLine.length() > MAX_LEN) {
+            // Word is too long: no need to store it
+            return null;
+        }
         return parsedLine;
     }
 

@@ -649,28 +649,6 @@ PFX Ui 0 d'atto .
 PFX Ui 0 zepto .
 PFX Ui 0 yocto .
 
-PFX U. Y 20
-PFX U. 0 Y .
-PFX U. 0 Z .
-PFX U. 0 E .
-PFX U. 0 P .
-PFX U. 0 T .
-PFX U. 0 G .
-PFX U. 0 M .
-PFX U. 0 k .
-PFX U. 0 h .
-PFX U. 0 da .
-PFX U. 0 d .
-PFX U. 0 c .
-PFX U. 0 m .
-PFX U. 0 µ .
-PFX U. 0 n .
-PFX U. 0 p .
-PFX U. 0 f .
-PFX U. 0 a .
-PFX U. 0 z .
-PFX U. 0 y .
-
 PFX n' Y 1
 PFX n' 0 n' [aàâeèéêiîoôuyhœæ]
 
