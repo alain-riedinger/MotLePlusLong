@@ -42,16 +42,30 @@ Il faut effectuer les opérations suivantes sur chaque bloc:
 ```
 SFX zA Y 9
 ```
+Le fichier d'affixes est également nettoyé des unité abrégées, comme "k" au lieu de "kilo".
+ligne 652
+```
+PFX U. Y 20
+PFX U. 0 Y .
+PFX U. 0 Z .
+...
+PFX U. 0 y .
+```
 
-Ce dictionnaire *aplani* nommé ici "fr-mlpl-flat.txt" va servir de base à la réalisation du dictionnaire dédié au **Mot le Plus Long**.
+Ce dictionnaire *aplani* nommé ici "fr-mlpl-flat.txt" va servir de base à la réalisation du dictionnaire dédié au **Mot le Plus Long**.  
 
 Le programme dispose de 2 modes:
 - le mode *création du dictionnaire*, pour créer le dictionnaire dédié au jeu
 - le mode de jeu lui-même
 
+Pour trouver les numéros de ligne définissant l'intervalle, il faut chercher ces 2 lignes:
+> a
+> ...
+> zzzz
+
 Il faut exécuter **une seule fois** la création du dictionnaire avec la commande:
 ```
-java -jar MotLePlusLong.jar dico fr-mlpl-flat.txt --start 26804 --end 809485
+java -jar MotLePlusLong.jar dico fr-mlpl-flat.txt --start 26343 --end 806546
 ```
 
 Un fichier "fr-mlpl-flat-strict.txt" est généré, il contient le dictionnaire *aplani* avec les modifications suivantes, pour ne garder que les mots autorisés par les règles du jeu:
