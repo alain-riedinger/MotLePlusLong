@@ -42,7 +42,7 @@ Il faut effectuer les opérations suivantes sur chaque bloc:
 ```
 SFX zA Y 9
 ```
-Le fichier d'affixes est également nettoyé des unité abrégées, comme "k" au lieu de "kilo".
+Le fichier d'affixes est également nettoyé des unité abrégées, comme "k" au lieu de "kilo".  
 ligne 652
 ```
 PFX U. Y 20
@@ -59,9 +59,9 @@ Le programme dispose de 2 modes:
 - le mode de jeu lui-même
 
 Pour trouver les numéros de ligne définissant l'intervalle, il faut chercher ces 2 lignes:
-> a
-> ...
-> zzzz
+> a  
+> ...  
+> zzzz  
 
 Il faut exécuter **une seule fois** la création du dictionnaire avec la commande:
 ```
@@ -83,6 +83,7 @@ Une passe manuelle est nécessaire pour supprimer tous les mots avec des unités
 - "kmetre" ou "km" sont supprimés
 
 Le fichier "fr-mlpl-flat-strict.txt" finalement obtenu est la référence même pour le jeu.  
+Il contient un total de **111496**.  
 A noter: je ne garantit pas que ce dictionnaire *fait maison* soit conforme avec les 2 dictionnaires de référence utilisé dans le jeu officiel (le *Larousse* et le *Petit Robert*).
 
 ## Le programme
