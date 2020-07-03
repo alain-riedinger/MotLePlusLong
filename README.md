@@ -22,7 +22,7 @@ sudo apt install hunspell-fr-comprehensive
 sudo apt install hunspell-tools
 ```
 
-Les dictionnaires hunspell pour une langque donnée sont composés de 2 fichiers:  
+Les dictionnaires hunspell pour une langue donnée sont composés de 2 fichiers:  
 - le dictionnaire, qui contient tous les mots *racine*:  
 "/usr/share/hunspell/fr_FR.dic"
 - les affixes, qui contient toutes les variations des mots *racine* (féminin, pluriel, conjugaisons):  
@@ -84,13 +84,13 @@ Une passe manuelle est nécessaire pour supprimer tous les mots avec des unités
 
 Le fichier "fr-mlpl-flat-strict.txt" finalement obtenu est la référence même pour le jeu.  
 Il contient un total de **111496**.  
-A noter: je ne garantit pas que ce dictionnaire *fait maison* soit conforme avec les 2 dictionnaires de référence utilisé dans le jeu officiel (le *Larousse* et le *Petit Robert*).
+A noter: je ne garantis pas que ce dictionnaire *fait maison* soit conforme avec les 2 dictionnaires de référence utilisés dans le jeu officiel (le *Larousse* et le *Petit Robert*).
 
 ## Le programme
 
 Grace au dictionnaire *aplani*, l'algorithme de solution du jeu est devenu simple:
 - le programme charge au lancement le dictionnaire
-- chaque mot est indexé en fonction du nombre total de lettres contenu, puis de nombre de chaque lettre contenue, pour les 26 lettres de a à z. Le tout est encodé sur un `BigInteger` de **14 octets**
+- chaque mot est indexé en fonction du nombre total de lettres contenu, puis des nombres de chaque lettre contenue, pour les 26 lettres de a à z. Le tout est encodé sur un `BigInteger` de **14 octets**
 
 Pour chaque index, il y a une liste de mots *similaires* (qui ont le même index, en bref des anagrammes), le tout est stocké dans un `Hashtable<BigInteger, List<String>>`.  
 L'algorithme consiste donc à chercher les mots les plus longs, en commençant par les 10 lettres (1 seule possibilité), puis s'il n'y a pas de correspondance, tentative avec les mots de 9 lettres, en retirant à tour de rôle une lettre (10 possibilités), puis même chose avec les 8 lettres, et ainsi de suite...
