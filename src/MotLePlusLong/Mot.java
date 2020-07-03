@@ -158,7 +158,7 @@ public class Mot {
                              bestSol.best.size() < 10) {
                         // Solution with same length has been found: add them, if not yet in
                         for (String w : found.best) {
-                            if (!found.best.contains(w)) {
+                            if (!bestSol.best.contains(w)) {
                                 bestSol.best.add(w);
                             }
                         }
